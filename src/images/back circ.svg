@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+	<title>back circ</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ccddd1 } 
+	</style>
+	<path id="Background" class="shp0" d="M540 1072C245.8 1072 8 834.2 8 540C8 245.8 245.8 8 540 8C834.2 8 1072 245.8 1072 540C1072 834.2 834.2 1072 540 1072Z" />
+</svg>

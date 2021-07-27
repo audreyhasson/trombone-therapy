@@ -1,0 +1,11 @@
+{
+  pretty: true,
+  locals: {
+    title: "Trombone Therapy",
+    links: [
+      ["Home", "/"],
+      ["Listen", "/listen"],
+      ["Contact", "/contact"]
+    ]
+  }
+}

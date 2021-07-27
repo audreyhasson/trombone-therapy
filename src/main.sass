@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600;700;800&family=Hind+Siliguri:wght@300;400&display=swap')
+
+//all styles
+$dark-green:  #023342
+$pale-green: #E6ECE8
+
+*
+  font-family: "Hind Siliguri"
+
+html, body
+  background-color: $pale-green
+
+//header stylin
+.left
+  display: flex
+  align-items: center
+
+a
+  text-decoration: none
+  color: $dark-green
+
+.title-text
+  font-family: Dosis
+  font-weight: 700
+  font-size: 50px
+  padding: .3rem 0 0 .5rem
+
+.navbar-brand
+  display: flex
+  align-items: center
+  justify-content: space-around
+
+a.each-link
+  text-transform: uppercase
+  font-weight: bold
+  font-size: 24px
+  line-height: 80px
+
+a.each-link.is-active
+  background-image: url("images/back circ.svg")
+  background-size: 50px
+  background-repeat: no-repeat
+  background-position: center

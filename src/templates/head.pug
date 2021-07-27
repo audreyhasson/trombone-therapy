@@ -1,0 +1,14 @@
+nav.navbar(role="navigation", aria-label="main navigation")
+  .navbar-brand
+    a.navbar-item.is-flex.left(href="/")
+      img(src="/images/logo.png", width="170")
+      span.title-text TROMBONE THERAPY
+    a(role="button", class="navbar-burger", aria-label="menu", aria-expanded="false", data-target="navbarBasicExample")
+      span(aria-hidden="true")
+      span(aria-hidden="true")
+      span(aria-hidden="true")
+    .navlinks 
+    each link in links
+      - let [text, url] = link
+      a.each-link(href=url, class={"is-active" : text === title}) #{text}
+    
